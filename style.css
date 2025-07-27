@@ -1,1 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f4fc;
+  padding: 20px;
+  margin: 0;
+}
+.titulo {
+  text-align: center;
+  color: #6c3483;
+  font-size: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.year {
+  background: #e8dff8;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.year h2 {
+  text-align: center;
+  color: #4a235a;
+  font-size: 16px;
+}
+.semester {
+  margin-top: 8px;
+}
+.semester h3 {
+  color: #6c3483;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 1.5px solid #a186c9;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  background-color: #faf5ff;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+li:hover {
+  background-color: #e7dbfc;
+}
+li.completed {
+  text-decoration: line-through;
+  color: #999 !important;
+  font-style: italic;
+  background-color: #ddd;
+  border-color: #999;
+}
 
